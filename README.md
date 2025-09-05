@@ -168,12 +168,3 @@ function App() {
   );
 }
 ```
-
-```
-
----
-
-Do you want me to also add a **“Real-world Example”** (like showing stacked toasts with animations using `framer-motion` or `react-transition-group`) in the README? That could make it very compelling for other devs.
-```
-
-
