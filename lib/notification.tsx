@@ -1,6 +1,6 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { useEffect } from "react";
-import { createContext } from "@quarto-raggio/create-react-context";
+import { createContext } from "create-react-context";
 
 export type Notification<T = any> = {
   id: string;

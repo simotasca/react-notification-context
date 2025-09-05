@@ -16,6 +16,9 @@
   "peerDependencies": {
     "react": "^18"
   },
+  "dependencies": {
+    "create-react-context": "github:simotasca/create-react-context"
+  },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
     "@types/node": "^22.7.7",
