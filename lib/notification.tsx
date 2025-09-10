@@ -25,7 +25,7 @@ export type NotificationContext = NotificationsQueueContext & NotifyContext;
 type NotificationContextOptions = { lifetime?: number; cleanupInterval?: number };
 export function initNotificationContext(options?: NotificationContextOptions): NotificationContext {
   const [queue, setQueue] = useState<Notification[]>([]);
-  const append = (item: Notification) => setQueue((curr) => [...curr, item]);
+  const append = useCallback((item: Notification) => setQueue((curr) => [...curr, item]), [setQueue]);
   const remove = useCallback((id: string) => setQueue((prev) => prev.filter((p) => p.id != id)), [setQueue]);
   const clear = useCallback(() => setQueue([]), [setQueue]);
 
