@@ -19,7 +19,7 @@ Provides a queue, safe hooks, and a flexible API to push custom notification com
 npm install github:simotasca/react-notification-context
 ```
 
-Requires React ^18.
+Requires React >=18.
 
 ---
 
