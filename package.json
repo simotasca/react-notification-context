@@ -14,9 +14,7 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "react": ">=18 <20"
-  },
-  "dependencies": {
+    "react": ">=18 <20",
     "create-react-context": "github:simotasca/create-react-context"
   },
   "devDependencies": {
