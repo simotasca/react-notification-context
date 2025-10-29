@@ -158,9 +158,9 @@ If you use `useNotify` or `useNotificationsQueue` outside of `<NotificationProvi
 
 ```tsx
 function App() {
-  const ctx = initNotificationContext();
-
-  return (
+    return (
+    const ctx = initNotificationContext();
+    
     <NotificationProvider value={ctx}>
       <NotificationsContainer />
       <MyButton />
